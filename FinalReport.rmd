@@ -67,13 +67,13 @@ chisq.test(table1)
 chisqtestGC(table1)
 fisher.test(table1)
 ```
-I reject the Null Hypothesis $H_0$:because the p_value is less than 0.05. Our P-value is 0.00007686 The fisher exact table is significant in showing that i reject the null hypothesis because the p value is 0.00006506.
+I reject the Null Hypothesis because the p-value is 0.00007686 significantly less than 0.05. The Fisher Exact Test table shows a p-value of 0.00006596 which is significantly less than 0.05. The likelihood of contacting the disease is between 1.2 and 1.9x to get the virus when taking the vaccine. 
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
-restate the question tie it all in do this at home
+
 ids the the drug effective in preventing females from getting aides.i conclude that the drug was not effective in fact based on the results it appears that femalles we more likely to aquire aides. 
 
 
