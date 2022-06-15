@@ -16,14 +16,16 @@ Females=filter(triUmp, gender== "F")
 
 <!--In this section you explain what you are trying to show.  Where did the data come from?  What is the research or other question you are trying to answer?.  If you skimp in this section expect to be marked down in your grade. Paint a picture of the project a couple of paragraphs is expected!-->
 
-A new  preventative aides drug (triUmpsal) is under test in clinical trials. Consider only the females, does this drug seem effective?  Hint - use dplyr to obtain that subpopulation with the filter command.  
-$H_0$: Whether or not women received  the vaccine had no effect on preventing female from contracting the virus
-$H_a$:
+A new  preventative aides drug (triUmpsal) is under test in clinical trials. Consider only the females, does this drug seem effective?  Hint - use dplyr to obtain that subpopulation with the filter command.
+
+$H_0$: Whether or not women received the vaccine had no effect on preventing females from contracting the aides virus.  
+
+$H_a$: The aides vaccine was effective in preventing females from contracting the aides virus. 
 
 # Methods
 ```{r}
 ```
-Both methods are categorical, so we will use chi-square test and a fisher exact test 
+Both methods are categorical, so we will use Chi-square test and a Fisher exact test.  
 
 ```{r}
 ```
