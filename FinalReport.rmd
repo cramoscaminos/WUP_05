@@ -25,7 +25,7 @@ $H_a$: The aides vaccine was effective in preventing females from contracting th
 # Methods
 ```{r}
 ```
-Both methods are categorical, so we will use Chi-square test and a Fisher exact test.  
+Both variables are categorical, so we will use Chi-square test and a Fisher exact test.  
 
 ```{r}
 ```
@@ -46,7 +46,8 @@ barchartGC(~infected + treatment,data=Females)
 barchartGC(~infected + treatment,data=Females, type="percent")
 
 ```
-The drug in this study appears to be ineffective as females who got the vaccine were more susceptible to getting the virus  
+  
+The drug in this study appears to be ineffective as females who got the vaccine were more susceptible to getting the aides virus.  
 
 ### Numerical Descriptive Results
 
